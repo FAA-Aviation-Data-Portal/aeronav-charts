@@ -48,7 +48,9 @@
   },
   "files": [
     "index.js",
-    "lib"
+    "lib/",
+    "license",
+    "readme.md"
   ],
   "keywords": [
     "aeronav",
