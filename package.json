@@ -47,7 +47,8 @@
     }
   },
   "files": [
-    "index.js"
+    "index.js",
+    "lib"
   ],
   "keywords": [
     "aeronav",
