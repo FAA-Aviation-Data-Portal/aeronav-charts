@@ -1,5 +1,5 @@
 {
-  "name": "aeronav-charts",
+  "name": "@faa-aviation-data-portal/aeronav-charts",
   "description": "Fetch links and metadata for charts provided by Aeronav in a sane format.",
   "version": "0.0.0",
   "author": {
@@ -49,7 +49,16 @@
   "files": [
     "index.js"
   ],
-  "keywords": [],
+  "keywords": [
+    "aeronav",
+    "charts",
+    "digital products",
+    "ifr",
+    "plannning",
+    "sectionals",
+    "terminal area",
+    "vfr"
+  ],
   "license": "MIT",
   "main": "index.js",
   "nyc": {
@@ -58,6 +67,7 @@
       "text"
     ]
   },
+  "private": false,
   "repository": "FAA-Aviation-Data-Portal/aeronav-charts",
   "scripts": {
     "test": "standard *.js && nyc mocha test.js"
