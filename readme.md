@@ -40,7 +40,7 @@ aeronavCharts.vfr.sectionals().then(results => {
 }
 ```
 
-See `./example.js` for more examples.
+See [`./example.js`]() for more examples.
 
 ## API
 
