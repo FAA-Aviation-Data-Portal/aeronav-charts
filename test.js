@@ -18,7 +18,11 @@ describe('rvr', () => {
   })
   it('should expose ifr functions', () => {
     assert(aeronav.ifr !== undefined)
-    assert(aeronav.ifr.lowsHighsAreas !== undefined)
+    assert(aeronav.ifr.enrouteLow !== undefined)
+    assert(aeronav.ifr.enrouteHigh !== undefined)
+    assert(aeronav.ifr.enrouteLowHighAlaska !== undefined)
+    assert(aeronav.ifr.enrouteArea !== undefined)
+    assert(aeronav.ifr.enrouteHawaiiPacific !== undefined)
     assert(aeronav.ifr.planning !== undefined)
     assert(aeronav.ifr.gulf !== undefined)
   })
