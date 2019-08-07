@@ -1,7 +1,7 @@
 const aeronavCharts = require('./index.js')
 
 aeronavCharts.vfr.sectionals().then(results => {
-  console.log(results[2])
+  console.log(results[0])
 })
 // aeronavCharts.vfr.terminalArea().then(results => {
 //   console.log(results[0])
@@ -19,7 +19,19 @@ aeronavCharts.vfr.sectionals().then(results => {
 //   console.log(results[0])
 // })
 
-// aeronavCharts.ifr.lowsHighsAreas().then(results => {
+// aeronavCharts.ifr.enrouteLow().then(results => {
+//   console.log(results[0])
+// })
+// aeronavCharts.ifr.enrouteHigh().then(results => {
+//   console.log(results[0])
+// })
+// aeronavCharts.ifr.enrouteLowHighAlaska().then(results => {
+//   console.log(results[0])
+// })
+// aeronavCharts.ifr.enrouteArea().then(results => {
+//   console.log(results[0])
+// })
+// aeronavCharts.ifr.enrouteHawaiiPacific().then(results => {
 //   console.log(results[0])
 // })
 // aeronavCharts.ifr.planning().then(results => {
