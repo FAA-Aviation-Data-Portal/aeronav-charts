@@ -3,7 +3,7 @@
 const assert = require('chai').assert
 const aeronav = require('./index')
 
-describe('rvr', () => {
+describe('aeronav-charts', () => {
   it('should exist', () => {
     assert(aeronav !== undefined)
   })
