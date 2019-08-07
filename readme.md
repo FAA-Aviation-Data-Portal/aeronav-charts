@@ -55,7 +55,11 @@ See [`./example.js`](./example.js) for more examples.
 
 ### IFR Charts
 
-#### `aeronavCharts.vfr.lowsHighsAreas()`
+#### `aeronavCharts.vfr.enrouteLow()`
+#### `aeronavCharts.vfr.enrouteHigh()`
+#### `aeronavCharts.vfr.enrouteLowHighAlaska()`
+#### `aeronavCharts.vfr.enrouteArea()`
+#### `aeronavCharts.vfr.enrouteHawaiiPacific()`
 #### `aeronavCharts.vfr.planning()`
 #### `aeronavCharts.vfr.gulf()`
 
