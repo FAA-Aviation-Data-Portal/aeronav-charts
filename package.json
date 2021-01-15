@@ -1,7 +1,7 @@
 {
   "name": "@faa-aviation-data-portal/aeronav-charts",
   "description": "Fetch links and metadata for charts provided by Aeronav in a sane format.",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "author": {
     "name": "Forrest Desjardins",
     "email": "desjardinsfg@gmail.com",
