@@ -46,6 +46,7 @@ See [`./example.js`](./example.js) for more examples.
 
 ### VFR Charts
 
+#### `aeronavCharts.vfr.all()`
 #### `aeronavCharts.vfr.sectionals()`
 #### `aeronavCharts.vfr.terminalArea()`
 #### `aeronavCharts.vfr.helicopter()`
@@ -55,6 +56,7 @@ See [`./example.js`](./example.js) for more examples.
 
 ### IFR Charts
 
+#### `aeronavCharts.vfr.all()`
 #### `aeronavCharts.vfr.enrouteLow()`
 #### `aeronavCharts.vfr.enrouteHigh()`
 #### `aeronavCharts.vfr.enrouteLowHighAlaska()`
