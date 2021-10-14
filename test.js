@@ -9,6 +9,7 @@ describe('aeronav-charts', () => {
   })
   it('should expose vfr functions', () => {
     assert(aeronav.vfr !== undefined)
+    assert(aeronav.vfr.all !== undefined)
     assert(aeronav.vfr.sectionals !== undefined)
     assert(aeronav.vfr.terminalArea !== undefined)
     assert(aeronav.vfr.helicopter !== undefined)
@@ -18,6 +19,7 @@ describe('aeronav-charts', () => {
   })
   it('should expose ifr functions', () => {
     assert(aeronav.ifr !== undefined)
+    assert(aeronav.ifr.all !== undefined)
     assert(aeronav.ifr.enrouteLow !== undefined)
     assert(aeronav.ifr.enrouteHigh !== undefined)
     assert(aeronav.ifr.enrouteLowHighAlaska !== undefined)
