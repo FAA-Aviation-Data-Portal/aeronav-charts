@@ -46,6 +46,7 @@ See [`./example.js`](./example.js) for more examples.
 
 ### VFR Charts
 
+#### `aeronavCharts.vfr.all()`
 #### `aeronavCharts.vfr.sectionals()`
 #### `aeronavCharts.vfr.terminalArea()`
 #### `aeronavCharts.vfr.helicopter()`
@@ -55,13 +56,14 @@ See [`./example.js`](./example.js) for more examples.
 
 ### IFR Charts
 
-#### `aeronavCharts.vfr.enrouteLow()`
-#### `aeronavCharts.vfr.enrouteHigh()`
-#### `aeronavCharts.vfr.enrouteLowHighAlaska()`
-#### `aeronavCharts.vfr.enrouteArea()`
-#### `aeronavCharts.vfr.enrouteHawaiiPacific()`
-#### `aeronavCharts.vfr.planning()`
-#### `aeronavCharts.vfr.gulf()`
+#### `aeronavCharts.ifr.all()`
+#### `aeronavCharts.ifr.enrouteLow()`
+#### `aeronavCharts.ifr.enrouteHigh()`
+#### `aeronavCharts.ifr.enrouteLowHighAlaska()`
+#### `aeronavCharts.ifr.enrouteArea()`
+#### `aeronavCharts.ifr.enrouteHawaiiPacific()`
+#### `aeronavCharts.ifr.planning()`
+#### `aeronavCharts.ifr.gulf()`
 
 ## Contributing
 
