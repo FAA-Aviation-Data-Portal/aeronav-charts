@@ -1,25 +1,25 @@
 {
   "name": "@faa-aviation-data-portal/aeronav-charts",
   "description": "Fetch links and metadata for charts provided by Aeronav in a sane format.",
-  "version": "0.2.2",
+  "version": "1.0.0",
   "author": {
     "name": "Forrest Desjardins",
     "email": "desjardinsfg@gmail.com",
     "url": "github.com/fdesjardins"
   },
   "dependencies": {
-    "cheerio": "^1.0.0-rc.10",
-    "superagent": "^6.1.0"
+    "cheerio": "^1.0.0-rc.12",
+    "superagent": "^8.0.9"
   },
   "devDependencies": {
-    "chai": "^4.3.4",
+    "chai": "^4.3.7",
     "coveralls": "^3.1.1",
-    "mocha": "^9.1.3",
+    "mocha": "^10.2.0",
     "nyc": "^15.1.0",
-    "standard": "^16.0.4"
+    "standard": "^17.1.0"
   },
   "engines": {
-    "node": ">=10"
+    "node": ">=14"
   },
   "eslintConfig": {
     "extends": [
@@ -73,6 +73,7 @@
   "private": false,
   "repository": "FAA-Aviation-Data-Portal/aeronav-charts",
   "scripts": {
-    "test": "standard *.js && nyc mocha test.js"
+    "test": "standard *.js && nyc mocha test.js",
+    "standard:fix": "standard --fix"
   }
 }

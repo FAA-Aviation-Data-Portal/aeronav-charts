@@ -1,42 +1,20 @@
 const aeronavCharts = require('./index.js')
 
-aeronavCharts.vfr.sectionals().then(results => {
-  console.log(results[0])
-})
-// aeronavCharts.vfr.terminalArea().then(results => {
-//   console.log(results[0])
-// })
-// aeronavCharts.vfr.helicopter().then(results => {
-//   console.log(results[0])
-// })
-// aeronavCharts.vfr.grandCanyon().then(results => {
-//   console.log(results[0])
-// })
-// aeronavCharts.vfr.planning().then(results => {
-//   console.log(results[0])
-// })
-// aeronavCharts.vfr.caribbean().then(results => {
-//   console.log(results[0])
-// })
+const logCharts = (charts) => Object.values(charts).map(chart => console.log(chart))
 
-// aeronavCharts.ifr.enrouteLow().then(results => {
-//   console.log(results[0])
-// })
-// aeronavCharts.ifr.enrouteHigh().then(results => {
-//   console.log(results[0])
-// })
-// aeronavCharts.ifr.enrouteLowHighAlaska().then(results => {
-//   console.log(results[0])
-// })
-// aeronavCharts.ifr.enrouteArea().then(results => {
-//   console.log(results[0])
-// })
-// aeronavCharts.ifr.enrouteHawaiiPacific().then(results => {
-//   console.log(results[0])
-// })
-// aeronavCharts.ifr.planning().then(results => {
-//   console.log(results[0])
-// })
-// aeronavCharts.ifr.gulf().then(results => {
-//   console.log(results[0])
-// })
+aeronavCharts.vfr.sectionals().then(logCharts)
+// aeronavCharts.vfr.terminalArea().then(logCharts)
+// aeronavCharts.vfr.helicopter().then(logCharts)
+// aeronavCharts.vfr.grandCanyon().then(logCharts)
+// aeronavCharts.vfr.planning().then(logCharts)
+// aeronavCharts.vfr.caribbean().then(logCharts)
+// aeronavCharts.vfr.all().then(logCharts)
+
+// aeronavCharts.ifr.enrouteLow().then(logCharts)
+// aeronavCharts.ifr.enrouteHigh().then(logCharts)
+// aeronavCharts.ifr.enrouteLowHighAlaska().then(logCharts)
+// aeronavCharts.ifr.enrouteArea().then(logCharts)
+// aeronavCharts.ifr.enrouteHawaiiPacific().then(logCharts)
+// aeronavCharts.ifr.planning().then(logCharts)
+// aeronavCharts.ifr.gulf().then(logCharts)
+// aeronavCharts.ifr.all().then(logCharts)
