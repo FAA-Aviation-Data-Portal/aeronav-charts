@@ -1,3 +1,7 @@
+⚠️ This project has been deprecated. ⚠️
+
+**This package is no longer maintained and will be deleted in 30 days.**
+
 # aeronav-charts
 
 Fetch links and metadata for charts provided by Aeronav in a sane format.
